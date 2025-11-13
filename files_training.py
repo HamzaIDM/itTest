@@ -96,6 +96,7 @@ def store_statistics_to_file(test_list, filename):
 
 
 def main():
+    print("This is really exciting!!\n")
     L = load_file_to_list("testsCovid19.txt")
     display_test_list(L)
 
